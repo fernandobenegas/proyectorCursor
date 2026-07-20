@@ -4,6 +4,7 @@ import Features from '@/components/features';
 import Pricing from '@/components/pricing';
 import Contact from '@/components/contact';
 import Footer from '@/components/footer';
+import WhatsAppButton from "../components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <WhatsAppButton />
         <Features />
         <Pricing />
         <Contact />
