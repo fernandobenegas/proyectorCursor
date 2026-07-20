@@ -14,6 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <link rel="icon" href="/frioTotal.ico" />
       <body>{children}</body>
     </html>
   );

@@ -13,3 +13,13 @@ export interface Contact {
   status: ContactStatus;
   createdAt: string;
 }
+
+export type CreateContactInput = Omit<
+  Contact,
+  "id" | "status" | "createdAt"
+>;
+
+// Compatibilidad temporal con el código viejo
+export type Consulta = Contact;
+export type ConsultaStatus = ContactStatus;
+export type CreateConsultaInput = CreateContactInput;
