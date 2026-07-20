@@ -32,7 +32,7 @@ export default function Hero() {
 
           <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
             Tu clima perfecto,{' '}
-            <span className="text-gradient">tu frío bajo o calor control</span>
+            <span className="text-gradient">tu frío  o calor bajo control</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-400">
