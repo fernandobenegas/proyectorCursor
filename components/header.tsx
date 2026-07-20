@@ -22,7 +22,7 @@ export default function Header() {
             <Snowflake className="h-5 w-5 text-white" />
           </span>
           <span>
-            Frío <span className="text-frost-400">Total</span>
+            Refrigeracion <span className="text-frost-400">Rosario</span>
           </span>
         </a>
 

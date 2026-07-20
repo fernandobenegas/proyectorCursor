@@ -15,11 +15,11 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <a href="#inicio" className="inline-flex items-center gap-2 font-bold text-white">
               <Snowflake className="h-5 w-5 text-frost-400" />
-              Frío Total
+              Refrigeración Rosario
             </a>
             <p className="mt-2 max-w-sm text-sm text-slate-500">
               Instalación y reparación de aire acondicionado, heladeras verticales
-              y horizontales. Servicio técnico certificado en CABA y GBA.
+              y horizontales. Servicio técnico certificado en Rosario y alrededores.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-8 text-center text-sm text-slate-500">
-          © {new Date().getFullYear()} Frío Total. Todos los derechos reservados.
+          © {new Date().getFullYear()}Desarrollado por  Digital Environment. Todos los derechos reservados.
           · Refrigeración · Climatización · Heladeras comerciales
         </div>
       </div>
