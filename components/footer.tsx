@@ -18,8 +18,8 @@ export default function Footer() {
               Refrigeración Rosario
             </a>
             <p className="mt-2 max-w-sm text-sm text-slate-500">
-              Instalación y reparación de aire acondicionado, heladeras verticales
-              y horizontales. Servicio técnico certificado en Rosario y alrededores.
+              Instalación y reparación de aire acondicionado, estufas de gas natural.
+               Servicio técnico certificado en Rosario y alrededores.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-8 text-center text-sm text-slate-500">
-          © {new Date().getFullYear()}Desarrollado por  Digital Environment. Todos los derechos reservados.
+          © {new Date().getFullYear()} Desarrollado por  Digital Environment. Todos los derechos reservados.
           · Refrigeración · Climatización · Heladeras comerciales
         </div>
       </div>
