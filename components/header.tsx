@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Menu, Phone, Snowflake, X } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: '#inicio', label: 'Inicio' },

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { addContact } from "@/lib/contacts";
+
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xdaqzqpb";
 
 export async function POST(request: NextRequest) {
   try {
@@ -9,33 +10,51 @@ export async function POST(request: NextRequest) {
 
     if (!name || !email || !phone || !service || !message) {
       return NextResponse.json(
-        {
-          error: "Completá todos los campos del formulario.",
-        },
+        { error: "Completá todos los campos del formulario." },
         { status: 400 }
       );
     }
 
-    const contact = await addContact({
-      name,
-      email,
-      phone,
-      service,
-      message,
+    const response = await fetch(FORMSPREE_ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        phone,
+        service,
+        message,
+      }),
     });
 
-    console.log("Nueva solicitud:", contact);
+    if (!response.ok) {
+      const error = await response.text();
+
+      console.error("Formspree:", error);
+
+      return NextResponse.json(
+        {
+          error: "No se pudo enviar el formulario.",
+        },
+        {
+          status: 500,
+        }
+      );
+    }
 
     return NextResponse.json({
       success: true,
-      message: "¡Solicitud recibida! Te contactamos en menos de 24 horas.",
+      message: "¡Solicitud enviada correctamente! Te responderemos a la brevedad.",
     });
   } catch (error) {
     console.error(error);
 
     return NextResponse.json(
       {
-        error: "No se pudo procesar la solicitud.",
+        error: "Ocurrió un error inesperado.",
       },
       {
         status: 500,

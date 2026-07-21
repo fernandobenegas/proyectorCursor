@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from 'react';
 import { Clock, Mail, MapPin, Phone, Send } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 const services = [
   'Instalación de aire acondicionado',

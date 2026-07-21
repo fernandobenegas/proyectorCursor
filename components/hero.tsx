@@ -24,10 +24,11 @@ export default function Hero() {
       <div className="absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-cyan-500/10 blur-3xl" />
 
       <div className="relative mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:items-center lg:gap-16 lg:px-8">
+        {/* Columna izquierda: título y texto */}
         <div className="animate-fade-up">
           <span className="inline-flex items-center gap-2 rounded-full border border-frost-500/30 bg-frost-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-frost-300">
             <ThermometerSnowflake className="h-3.5 w-3.5" />
-            Refrigeración profesional · Respuesta en 24 hs
+            Refrigeración profesional · Respuestas las 24 hs
           </span>
 
           <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -37,8 +38,8 @@ export default function Hero() {
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-400">
             Somos especialistas en instalación, reparación y mantenimiento de
-            equipos de aire acondicionado, heladeras comerciales verticales y
-            horizontales. Atendemos hogares, comercios y oficinas con técnicos
+            equipos de aire acondicionado, Mantenimiento de artefactos de gas. 
+            Atendemos hogares, comercios y oficinas con técnicos
             certificados y repuestos originales.
           </p>
 
@@ -68,29 +69,35 @@ export default function Hero() {
           </div>
         </div>
 
+        {/* Columna derecha: carteles flotantes y bloque central */}
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="glass animate-float absolute -left-4 top-8 z-10 rounded-2xl p-4 shadow-2xl sm:left-0">
+          {/* Cartel flotante arriba izquierda */}
+          <div className="glass animate-float absolute -left-8 top-50 z-10 rounded-2xl p-4  shadow-lg shadow-cyan-400/40 sm:left-0">
             <Wind className="h-8 w-8 text-frost-400" />
             <p className="mt-2 text-sm font-semibold text-white">Aire acondicionado</p>
             <p className="text-xs text-slate-400">Split · Central · Inverter</p>
           </div>
 
-          <div className="glass absolute -right-2 bottom-16 z-10 rounded-2xl p-4 shadow-2xl sm:right-4">
+          {/* Cartel flotante abajo derecha */}
+          <div className="glass animate-float absolute -right-8 bottom-45 z-10 rounded-2xl p-4  shadow-lg shadow-cyan-400/40 sm:right-4">
             <Refrigerator className="h-8 w-8 text-cyan-400" />
-            <p className="mt-2 text-sm font-semibold text-white">Heladeras</p>
-            <p className="text-xs text-slate-400">Vertical · Horizontal · Comercial</p>
+            <p className="mt-2 text-sm font-semibold text-white">Estufas</p>
+            <p className="text-xs text-slate-400">·Gas Natural</p>
           </div>
 
-          <div className="glass relative mx-auto rounded-3xl p-8 shadow-2xl sm:p-10">
-            <div className="flex items-center gap-3 border-b border-white/10 pb-6">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-frost-500/20">
+          {/* Bloque central */}
+          <div className="glass relative text-center mx-auto rounded-3xl p-8 shadow-lg shadow-cyan-400/40 sm:p-10">
+          <div className="flex h-12 w-50 items-center justify-center rounded-2xl bg-frost-500/20">
                 <ShieldCheck className="h-6 w-6 text-frost-400" />
-              </div>
-              <div>
-                <p className="font-semibold text-white">Garantía Frío Total</p>
-                <p className="text-sm text-slate-400">6 meses en mano de obra</p>
+            </div>
+            <div className="flex items-center gap-3 border-b border-white/10 pb-6 justify-center">
+              
+              <div className="align-center flex flex-col items-center gap-2">
+                <p className="font-semibold text-white">Garantía Refrigeracion Rosario</p>
+                
               </div>
             </div>
+
 
             <div className="mt-6 grid grid-cols-2 gap-4">
               <div className="rounded-2xl bg-white/5 p-4 text-center">
@@ -99,10 +106,10 @@ export default function Hero() {
               </div>
               <div className="rounded-2xl bg-white/5 p-4 text-center">
                 <p className="text-3xl font-bold text-frost-300">24 hs</p>
-                <p className="mt-1 text-xs text-slate-400">Tiempo de respuesta</p>
+                <p className="mt-1 text-xs text-slate-400">de respuesta</p>
               </div>
               <div className="rounded-2xl bg-white/5 p-4 text-center">
-                <p className="text-3xl font-bold text-frost-300">15+</p>
+                <p className="text-3xl font-bold text-frost-300">+7</p>
                 <p className="mt-1 text-xs text-slate-400">Años de experiencia</p>
               </div>
               <div className="rounded-2xl bg-white/5 p-4 text-center">
