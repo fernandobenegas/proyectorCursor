@@ -7,11 +7,8 @@ import { cn } from "@/lib/utils";
 const services = [
   'Instalación de aire acondicionado',
   'Reparación de aire acondicionado',
-  'Heladera vertical comercial',
-  'Heladera horizontal / freezer',
-  'Mantenimiento preventivo',
-  'Refrigeración industrial',
-  'Otro',
+  'Estufa de gas natural',
+  'Mantenimiento preventivo'
 ];
 
 const contactInfo = [
@@ -24,8 +21,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'info@friototal.com.ar',
-    href: 'mailto:info@friototal.com.ar',
+    value: 'benegasfernando1993@gmail.com',
+    href: 'mailto:benegasfernando1993@gmail.com',
   },
   {
     icon: MapPin,
@@ -91,8 +88,8 @@ export default function Contact() {
             </h2>
             <p className="mt-4 text-lg text-slate-400">
               Contanos qué equipo necesitás instalar o reparar — aire
-              acondicionado, heladera vertical u horizontal — y un técnico te
-              responde en menos de 24 horas con presupuesto sin cargo.
+              acondicionado, estufa de gas natural — y un técnico te
+              responde instantaneamente con presupuesto sin cargo.
             </p>
 
             <div className="mt-10 space-y-6">
@@ -144,7 +141,7 @@ export default function Contact() {
                   id="phone"
                   name="phone"
                   required
-                  placeholder="11 2345-6789"
+                  placeholder="3416021236"
                   className="w-full rounded-xl border border-white/10 bg-slate-950/80 px-4 py-3 text-white placeholder:text-slate-600 focus:border-frost-500 focus:outline-none focus:ring-1 focus:ring-frost-500"
                 />
               </div>

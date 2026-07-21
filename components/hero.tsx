@@ -9,7 +9,7 @@ import {
 
 const highlights = [
   'Instalación certificada de splits y centrales',
-  'Reparación de heladeras verticales y horizontales',
+  'Mantenimiento de artefactos de gas',
   'Mantenimiento preventivo con garantía',
 ];
 
@@ -72,40 +72,14 @@ export default function Hero() {
         {/* Columna derecha: carteles flotantes y bloque central */}
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           {/* Cartel flotante arriba izquierda */}
-          <div className="
-glass animate-float absolute
-hidden sm:block
-sm:left-2
-md:-left-4
-lg:-left-8
-top-8
-md:top-16
-lg:top-24
-z-10
-rounded-2xl
-p-3 md:p-4
-shadow-lg shadow-cyan-400/40
-">
+          <div className="glass animate-float absolute -left12 top-50 z-10 rounded-2xl p-4  shadow-lg shadow-cyan-400/40 sm:left-0">
             <Wind className="h-8 w-8 text-frost-400" />
             <p className="mt-2 text-sm font-semibold text-white">Aire acondicionado</p>
             <p className="text-xs text-slate-400">Split · Central · Inverter</p>
           </div>
 
           {/* Cartel flotante abajo derecha */}
-          <div className="
-glass animate-float absolute
-hidden sm:block
-sm:right-2
-md:-right-4
-lg:-right-8
-bottom-45
-md:bottom-56
-lg:bottom-64
-z-10
-rounded-2xl
-p-3 md:p-4
-shadow-lg shadow-cyan-400/40
-">
+          <div className="glass animate-float absolute -right-1 bottom-45 z-10 rounded-2xl p-4  shadow-lg shadow-cyan-400/40 sm:right-4">
             <Refrigerator className="h-8 w-8 text-cyan-400" />
             <p className="mt-2 text-sm font-semibold text-white">Estufas</p>
             <p className="text-xs text-slate-400">·Gas Natural</p>
@@ -113,14 +87,14 @@ shadow-lg shadow-cyan-400/40
 
           {/* Bloque central */}
           <div className="glass relative text-center mx-auto rounded-3xl p-8 shadow-lg shadow-cyan-400/40 sm:p-10">
-          <div className="flex h-12 w-50 items-center justify-center rounded-2xl bg-frost-500/20">
-                <ShieldCheck className="h-6 w-6 text-frost-400" />
+          <div className="flex h-12 w-50 items-center mt-25 justify-center rounded-2xl bg-frost-500/20">
+                <ShieldCheck className="h-6 w-6 mt-6 text-frost-400" />
             </div>
             <div className="flex items-center gap-3 border-b border-white/10 pb-6 justify-center">
               
-              <div className="align-center flex flex-col items-center gap-2">
-                <p className="font-semibold text-white">Garantía</p>
-                
+              <div className="align-center flex flex-col items-center gap-3">
+                <p className="font-semibold mt-5 text-white">Trabajo 100% garantizado</p>
+          
               </div>
             </div>
 
@@ -135,7 +109,7 @@ shadow-lg shadow-cyan-400/40
                 <p className="mt-1 text-xs text-slate-400">de respuesta</p>
               </div>
               <div className="rounded-2xl bg-white/5 p-4 text-center">
-                <p className="text-3xl font-bold text-frost-300">+7</p>
+                <p className="text-3xl font-bold text-frost-300">+10</p>
                 <p className="mt-1 text-xs text-slate-400">Años de experiencia</p>
               </div>
               <div className="rounded-2xl bg-white/5 p-4 text-center">

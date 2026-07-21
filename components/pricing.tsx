@@ -3,39 +3,39 @@ import { cn } from "@/lib/utils";
 
 const plans = [
   {
-    name: 'Básico',
+    name: 'Precio Promocional por todo el mes de agosto',
     subtitle: 'Ideal para hogares',
-    price: '$45.000',
-    period: 'por visita técnica',
+    price: '$120.000',
+    period: 'instalación split hasta 3500 fg',
     description:
-      'Diagnóstico y reparación de aire acondicionado o heladera doméstica. Incluye mano de obra y presupuesto de repuestos.',
+      'Diagnóstico e instalacion de aire acondicionado split. Incluye revisión de presiones, detección de fugas y prueba de funcionamiento.',
     features: [
+      'Instalacion completa del equipo',
       'Revisión completa del equipo',
       'Detección de fallas y fugas',
       'Presupuesto sin compromiso',
-      'Garantía 30 días en reparación',
-      'Atención en CABA y GBA',
+      'Atención en Rosario y alrededores',
     ],
     cta: 'Solicitar visita',
-    highlighted: false,
+    highlighted: true,
   },
   {
     name: 'Profesional',
     subtitle: 'Comercios y oficinas',
-    price: '$89.000',
+    price: '$380.000',
     period: 'instalación split hasta 6000 fg',
     description:
-      'Instalación profesional de aire acondicionado con materiales incluidos, vacío, carga de gas y prueba de funcionamiento.',
+      'Instalación profesional de aire acondicionado, vacío, carga de gas y prueba de funcionamiento.',
     features: [
       'Instalación split o multi split',
       'Cañería de cobre hasta 3 m',
       'Soporte y protección eléctrica',
       'Puesta en marcha y capacitación',
-      'Garantía 6 meses mano de obra',
-      'Heladeras verticales incluidas',
+      'Garantía 6 meses mano de obra'
+
     ],
     cta: 'Pedir instalación',
-    highlighted: true,
+    highlighted: false,
   },
   {
     name: 'Empresarial',
@@ -49,8 +49,7 @@ const plans = [
       'Prioridad en emergencias 24/7',
       'Repuestos con descuento',
       'Informes técnicos digitales',
-      'Heladeras verticales y horizontales',
-      'SLA de respuesta garantizado',
+      'Instalaciones en edificios y locales comerciales',
     ],
     cta: 'Contactar asesor',
     highlighted: false,

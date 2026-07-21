@@ -7,6 +7,7 @@ import {
   Wrench,
   Wind,
   Zap,
+  Flame
 } from 'lucide-react';
 
 const services = [
@@ -18,26 +19,20 @@ const services = [
     tags: ['Split', 'Inverter', 'Conductos'],
   },
   {
+    icon: Flame,
+    title: 'Estufas y calefactores de gas',
+    description:
+      'mantenimiento de estufas a gas natural y calefactores de tiro balanceado. Revisión de quemadores, válvulas y termostatos para un funcionamiento seguro y eficiente.',
+    tags: ['Gas natural', 'Tiro balanceado', 'Seguridad'],
+  },
+  {
     icon: Wrench,
     title: 'Reparación de equipos de climatización',
     description:
       'Diagnóstico de fallas en compresores, ventiladores, tarjetas electrónicas y sensores. Recuperación de gas, detección de fugas y reemplazo de componentes con garantía.',
     tags: ['Fugas', 'Compresor', 'Electrónica'],
   },
-  {
-    icon: Refrigerator,
-    title: 'Heladeras verticales comerciales',
-    description:
-      'Service integral de vitrinas y cámaras verticales para kioscos, carnicerías y farmacias. Regulación de temperatura, cambio de termostatos y sellado de puertas.',
-    tags: ['Vitrinas', 'Comercio', 'Termostato'],
-  },
-  {
-    icon: Fan,
-    title: 'Heladeras horizontales y freezers',
-    description:
-      'Reparación de heladeras horizontales, conservadoras y freezers industriales. Mantenimiento de evaporadores, deshielo automático y limpieza de condensadores.',
-    tags: ['Freezer', 'Industrial', 'Deshielo'],
-  },
+  
   {
     icon: Settings,
     title: 'Mantenimiento preventivo',
@@ -79,9 +74,9 @@ export default function Features() {
             Soluciones completas en refrigeración y climatización
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Desde la instalación de tu primer split hasta el mantenimiento de
-            heladeras comerciales de alto volumen. Trabajamos con todas las
-            marcas: Samsung, LG, Carrier, BGH, Whirlpool y más.
+            Desde la instalación de tu primer split hasta el mantenimiento de tu
+            estufas de gas natural.
+           .
           </p>
         </div>
 
