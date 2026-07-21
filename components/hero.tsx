@@ -72,14 +72,40 @@ export default function Hero() {
         {/* Columna derecha: carteles flotantes y bloque central */}
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           {/* Cartel flotante arriba izquierda */}
-          <div className="glass animate-float absolute -left-8 top-50 z-10 rounded-2xl p-4  shadow-lg shadow-cyan-400/40 sm:left-0">
+          <div className="
+glass animate-float absolute
+hidden sm:block
+sm:left-2
+md:-left-4
+lg:-left-8
+top-8
+md:top-16
+lg:top-24
+z-10
+rounded-2xl
+p-3 md:p-4
+shadow-lg shadow-cyan-400/40
+">
             <Wind className="h-8 w-8 text-frost-400" />
             <p className="mt-2 text-sm font-semibold text-white">Aire acondicionado</p>
             <p className="text-xs text-slate-400">Split · Central · Inverter</p>
           </div>
 
           {/* Cartel flotante abajo derecha */}
-          <div className="glass animate-float absolute -right-8 bottom-45 z-10 rounded-2xl p-4  shadow-lg shadow-cyan-400/40 sm:right-4">
+          <div className="
+glass animate-float absolute
+hidden sm:block
+sm:right-2
+md:-right-4
+lg:-right-8
+bottom-45
+md:bottom-56
+lg:bottom-64
+z-10
+rounded-2xl
+p-3 md:p-4
+shadow-lg shadow-cyan-400/40
+">
             <Refrigerator className="h-8 w-8 text-cyan-400" />
             <p className="mt-2 text-sm font-semibold text-white">Estufas</p>
             <p className="text-xs text-slate-400">·Gas Natural</p>
@@ -93,7 +119,7 @@ export default function Hero() {
             <div className="flex items-center gap-3 border-b border-white/10 pb-6 justify-center">
               
               <div className="align-center flex flex-col items-center gap-2">
-                <p className="font-semibold text-white">Garantía Refrigeracion Rosario</p>
+                <p className="font-semibold text-white">Garantía</p>
                 
               </div>
             </div>
