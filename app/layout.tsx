@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import FrostBackground from "@/components/FrostBackground";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "Frío Total",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className="relative overflow-x-hidden">
         <FrostBackground/>
         {children}
+        <Analytics/>
       </body>
     </html>
   );
