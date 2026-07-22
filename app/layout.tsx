@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import FrostBackground from "@/components/FrostBackground";
 
 export const metadata: Metadata = {
   title: "Frío Total",
@@ -14,8 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <link rel="icon" href="/frioTotal.ico" />
-      <body>{children}</body>
+      <body className="relative overflow-x-hidden">
+        <FrostBackground/>
+        {children}
+      </body>
     </html>
   );
 }

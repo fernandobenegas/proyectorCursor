@@ -26,8 +26,8 @@ export default function Hero() {
       <div className="relative mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:items-center lg:gap-16 lg:px-8">
         {/* Columna izquierda: título y texto */}
         <div className="animate-fade-up">
-          <span className="inline-flex items-center gap-2 rounded-full border border-frost-500/30 bg-frost-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-frost-300">
-            <ThermometerSnowflake className="h-3.5 w-3.5" />
+          <span className="inline-flex items-center  gap-2 rounded-full border border-frost-500/30 bg-frost-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-frost-300">
+            <ThermometerSnowflake className="h-3.5 w-3.5 text-slate-300" />
             Refrigeración profesional · Respuestas las 24 hs
           </span>
 
