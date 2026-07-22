@@ -21,8 +21,8 @@ export default function Header() {
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-frost-400 to-frost-600 shadow-lg shadow-frost-500/25">
             <Snowflake className="h-5 w-5 text-white" />
           </span>
-          <span className="text-white-400 text-3xl">
-            Refrigeracion <span className="text-frost-400 text-3xl">Rosario</span>
+          <span className="text-white-400 text-2xl">
+            Refrigeracion <span className="text-frost-400 text-2xl">Rosario</span>
           </span>
         </a>
 
