@@ -66,8 +66,8 @@ export default function Features() {
   return (
     <section id="servicios" className="border-t border-white/10 bg-slate-900/50 py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-frost-400">
+        <div className="mx-auto text-3xl max-w-2xl text-center">
+          <p className="text-sm:text-3xl font-bold uppercase tracking-wider  text-frost-400">
             Nuestros servicios
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -80,7 +80,7 @@ export default function Features() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16  grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <article
               key={service.title}
@@ -90,7 +90,7 @@ export default function Features() {
                 <service.icon className="h-6 w-6" />
               </div>
               <h3 className="mt-5 text-lg font-semibold text-white">{service.title}</h3>
-              <p className="mt-3 text-sm leading-relaxed text-slate-400">
+              <p className="mt-3 text-1xl font-semibold leading-relaxed text-slate-400">
                 {service.description}
               </p>
               <div className="mt-4 flex flex-wrap gap-2">

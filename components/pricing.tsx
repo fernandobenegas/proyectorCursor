@@ -60,8 +60,8 @@ export default function Pricing() {
   return (
     <section id="precios" className="py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-frost-400">
+        <div className="mx-auto text-3xl max-w-2xl text-center">
+          <p className="text-sm text-3xl font-semibold uppercase tracking-wider text-frost-400 ">
             Precios transparentes
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -129,7 +129,7 @@ export default function Pricing() {
           ))}
         </div>
 
-        <p className="mt-10 text-center text-sm text-slate-500">
+        <p className="mt-10 text-center text-sm text-slate-500 text-3xl">
           * Los precios no incluyen repuestos salvo indicación contraria. Aceptamos
           transferencia, efectivo y tarjetas en cuotas.
         </p>
