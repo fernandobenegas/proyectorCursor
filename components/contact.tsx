@@ -84,7 +84,7 @@ export default function Contact() {
               Contacto
             </p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              ¿Tu equipo no enfría? Escribinos hoy llenando el formulario o enviando un wsp
+             ¿Como te ayudamos?<br /> Escribinos, llena el formulario o envianos un wsp.
             </h2>
             <p className="mt-4 text-lg text-slate-400">
               Contanos qué equipo necesitás instalar o reparar — aire
