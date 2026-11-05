@@ -44,7 +44,7 @@ export default function Header() {
             className="flex items-center gap-2 text-sm text-slate-300 transition hover:text-frost-300"
           >
             <Phone className="h-4 w-4" />
-             3416609115
+             3415097048
           </a>
           <a
             href="#contacto"
