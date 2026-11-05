@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import FrostBackground from "@/components/FrostBackground";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
+  
   children,
 }: Readonly<{
   children: React.ReactNode;

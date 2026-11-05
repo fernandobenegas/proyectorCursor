@@ -3,9 +3,9 @@ import { cn } from "@/lib/utils";
 
 const plans = [
   {
-    name: 'Precio Promocional por todo el mes de agosto',
+    name: 'Precio Promocional por todo el verano ',
     subtitle: 'Ideal para hogares',
-    price: '$120.000',
+    price: '$180.000',
     period: 'instalación split hasta 3500 fg',
     description:
       'Diagnóstico e instalacion de aire acondicionado split. Incluye revisión de presiones, detección de fugas y prueba de funcionamiento.',
