@@ -15,14 +15,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Teléfono / WhatsApp',
-    value: '3416609115',
-    href: 'tel:+5491123456789',
+    value: '3415097048',
+    href: 'tel:+5493415097048',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'benegasfernando1993@gmail.com',
-    href: 'mailto:benegasfernando1993@gmail.com',
+    value: 'laureano16@gmail.com',
+    href: 'mailto:laureano16@gmail.com',
   },
   {
     icon: MapPin,

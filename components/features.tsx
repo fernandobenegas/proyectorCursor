@@ -40,42 +40,7 @@ const services = [
     description:
       'Planes periódicos para evitar roturas en temporada alta. Limpieza de filtros, revisión de presiones, lubricación y informe técnico con recomendaciones.',
     tags: ['Preventivo', 'Plan anual', 'Informe'],
-  },
-  {
-    icon: Flame,
-    title: 'Instalaciones de gas',
-    description:
-      'Obra nueva de gas domiciliaria y comercial, instalación de artefactos (cocinas, calefones, termotanques, calderas), pruebas de hermeticidad y verificación de monóxido.',
-    tags: ['Obra nueva', 'Artefactos', 'Hermeticidad'],
-  },
-  {
-    icon: ClipboardList,
-    title: 'Trámites y habilitaciones',
-    description:
-      'Gestión de factibilidad, proyectos y trámites administrativos ante el ente regulador, inspecciones oculares y certificados de verificación para habilitación municipal.',
-    tags: ['Factibilidad', 'Inspección', 'Certificados'],
-  },
-  {
-    icon: Droplets,
-    title: 'Instalaciones de agua',
-    description:
-      'Agua fría y caliente en fusión para cocina, baño y lavadero, tanques cisterna y elevados, bombas presurizadoras y elevadoras, biodigestores y pruebas hidráulicas.',
-    tags: ['Fusión', 'Tanques', 'Bombas'],
-  },
-  {
-    icon: Waves,
-    title: 'Desagües y destapaciones',
-    description:
-      'Conexión de desagües cloacales y pluviales, cámaras de inspección y sépticas, pozos ciegos y destapaciones domiciliarias, comerciales y en edificios.',
-    tags: ['Cloacas', 'Pluvial', 'Destapaciones'],
-  },
-  {
-    icon: Bath,
-    title: 'Grifería y sanitarios',
-    description:
-      'Instalación de bañeras, duchas, inodoros, vanitorys y grifería tradicional o embutida, más reemplazo de monocomandos, flexibles y válvulas.',
-    tags: ['Griferías', 'Sanitarios', 'Reemplazos'],
-  },
+  }
 ];
 
 const extras = [
