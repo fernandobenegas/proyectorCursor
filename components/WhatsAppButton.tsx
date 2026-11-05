@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppButton() {
   const phone = "5493415097048"; // Número de teléfono con código de país (Argentina: 54, Rosario: 9)
-  const message = "Hola! Quiero más información sobre Refrigeración sobre sus servicios.";
+  const message = "Hola! Quiero más información sobre sus servicios de refrigeracion.";
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
   return (
