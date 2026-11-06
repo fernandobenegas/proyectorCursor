@@ -9,8 +9,8 @@ import {
 
 const highlights = [
   'Instalación certificada de splits y centrales',
-  'Mantenimiento de artefactos de gas',
   'Mantenimiento preventivo con garantía',
+  'heladeras no frost ',
 ];
 
 export default function Hero() {
@@ -81,8 +81,8 @@ export default function Hero() {
           {/* Cartel flotante abajo derecha */}
           <div className="glass animate-float absolute -right-1 bottom-45 z-10 rounded-2xl p-4  shadow-lg shadow-cyan-400/40 sm:right-4">
             <Refrigerator className="h-8 w-8 text-cyan-400" />
-            <p className="mt-2 text-sm font-semibold text-white">Estufas</p>
-            <p className="text-xs text-slate-400">·Gas Natural</p>
+            <p className="mt-2 text-sm font-semibold text-white">Heladeras</p>
+            <p className="text-xs text-slate-400">·No Frost</p>
           </div>
 
           {/* Bloque central */}

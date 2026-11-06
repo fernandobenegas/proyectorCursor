@@ -65,11 +65,11 @@ export default function Features() {
             Nuestros servicios
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Soluciones completas en refrigeración, gas y agua
+            Soluciones completas en refrigeración
           </h2>
           <p className="mt-4 text-lg text-slate-400">
             Desde la instalación de tu primer split hasta el mantenimiento de tus
-            artefactos de gas y agua.
+            artefactos.
           </p>
         </div>
 
